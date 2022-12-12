@@ -1,8 +1,8 @@
-# bash-port-scanner
+# Bash port scanner
 
 Port scanner written in Bash with `tail` being the only external binary. I wrote this around 2015 and forgot about it, found it now when wiping an old laptop and figured I might as well share it. I probably had no real use case for this more than having fun.
 
-```shell
+```
 $ ./port-scan.sh -h
 Usage:
 port-scan.sh [OPTIONS...] HOST
@@ -15,7 +15,7 @@ port-scan.sh [OPTIONS...] HOST
 
 Example output and benchmark:
 
-```shell
+```
 $ time ./port-scan.sh 192.168.0.123
 Scanning ports 1 to 1024 on 192.168.0.123...
 22: is open
